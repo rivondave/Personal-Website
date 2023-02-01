@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    margin-top: 20px;
+}
+.header .row .col-8 i{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.header .row .col-8 a{
+    text-decoration: none;
+    color: white;
+}
+
+.header .row .col-4[name=icons] i{
+    font-size: 25px;
+    padding-left: 10px;
+    color: white;
+}
+
+@media(max-width:992px){
+    .header .row .col-4[name=icons] i{
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    .header .row .col-8 h3{
+        font-size: 20px;
+    }
+}
+
+.content{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content a{
+    text-decoration: none;
+    color: #bfbfbf;
+}
+.content footer{
+    font-style: italic;
+    color: #bfbfbf;
+}
+
+@media(max-height:930px){
+    .content{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@media(max-height:800px){
+    .content{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@media(max-height:700px){
+    .content{
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+
+form input{
+    width: 500px;
+    height: 40px;
+}
+form textarea{
+    width: 500px;
+    height: 150px;
+}
+form textarea,input{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+form button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    transition: 1s;
+}
+
+form button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black
+}
+@media(max-width:600px){
+    form input,form textarea{
+        width: 250px;
+    }
+}
